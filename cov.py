@@ -1,5 +1,10 @@
-#number	Diff line number	Diff line change
-@@ -9,9 +9,6 @@
+# -*- coding: utf-8 -*-
+"""
+Spyder Editor
+
+This is a temporary script file.
+"""
+
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -100,3 +105,5 @@ ax2.set_ylabel("Total Deaths")
 ax2.set_xlabel("Countries")
 fig.suptitle("Figure 1: Top 20 Countries by COVID-19 Cases and Deaths", fontsize=16)
 st.pyplot(fig)
+
+
