@@ -1,0 +1,68 @@
+﻿# Ignore Python bytecode
+*.pyc
+__pycache__/
+
+# Ignore Python virtual environments
+.env
+.venv/
+env/
+venv/
+
+# Ignore Spyder configuration files
+.spyder-py3/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Ignore all hidden files and directories
+.*
+!.gitignore
+
+# Ignore log files
+*.log
+
+# Ignore database files
+*.sqlite3
+*.pdb
+
+# Ignore Windows system files and directories
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+AppData/
+Contacts/
+Cookies/
+Desktop/
+Documents/
+Downloads/
+Favorites/
+Links/
+Local Settings/
+Music/
+NTUSER.DAT
+NTUSER.DAT.LOG*
+NetHood/
+Pictures/
+PrintHood/
+Recent/
+Saved Games/
+Searches/
+SendTo/
+Start Menu/
+Templates/
+Videos/
+OneDrive/
+config/
+MicrosoftEdgeBackups/
+
+# Ignore Dropbox files
+.dropbox/
+.dropbox_bi/
+Dropbox/
+
+# Ignore specific files causing issues
+AppData/Local/Comms/UnistoreDB/USS.jtx
